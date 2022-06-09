@@ -26,7 +26,6 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
-		height: 100vh;
 
 		&__text {
 			max-width: 50%;

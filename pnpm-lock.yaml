@@ -10,6 +10,7 @@ specifiers:
   vite-aliases: ^0.9.2
   vue: ^3.2.25
   vue-router: ^4.0.15
+  vue3-carousel: ^0.1.40
 
 dependencies:
   kute.js: 2.2.2
@@ -17,6 +18,7 @@ dependencies:
   sass: 1.52.1
   vue: 3.2.36
   vue-router: 4.0.15_vue@3.2.36
+  vue3-carousel: 0.1.40_vue@3.2.36
 
 devDependencies:
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
@@ -707,3 +709,11 @@ packages:
       '@vue/runtime-dom': 3.2.36
       '@vue/server-renderer': 3.2.36_vue@3.2.36
       '@vue/shared': 3.2.36
+
+  /vue3-carousel/0.1.40_vue@3.2.36:
+    resolution: {integrity: sha512-rPIfBxFhsY6W6qKNGsjgzPJdngt07ov06/Ql1lKsTr8gBx73gUxCIIQo/7M3QCx3KU94CDGBbLugF5YGdEPefg==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.36
+    dev: false

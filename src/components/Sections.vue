@@ -1,6 +1,7 @@
 <template>
 	<main class="main">
 		<AboutSection />
+		<ProjectsSection />
 		<HobbiesSection1 />
 		<HobbiesSection2 />
 		<ContactForm />
@@ -12,6 +13,7 @@
 	import HobbiesSection1 from "@components/sections/HobbiesSection1.vue";
 	import HobbiesSection2 from "@components/sections/HobbiesSection2.vue";
 	import ContactForm from "@components/sections/ContactForm.vue";
+	import ProjectsSection from "@components/sections/ProjectsSection.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -19,5 +21,8 @@
 		background-image: url("../src/assets/layered-waves-haikei.svg");
 		background-size: cover;
 		height: 500vh;
+		& > * {
+			height: 100vh;
+		}
 	}
 </style>
