@@ -31,6 +31,7 @@
 	}
 	.navbar {
 		background-color: #000;
+		z-index: 5;
 
 		// min-width: 97%;
 		width: 100%;

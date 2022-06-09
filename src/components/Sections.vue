@@ -1,10 +1,10 @@
 <template>
 	<main class="main">
 		<AboutSection />
-		<ProjectsSection />
-		<HobbiesSection1 />
-		<HobbiesSection2 />
-		<ContactForm />
+		<ProjectsSection id="skills" />
+		<HobbiesSection1 id="" />
+		<HobbiesSection2 id="" />
+		<ContactForm id="" />
 	</main>
 </template>
 
