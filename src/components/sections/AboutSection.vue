@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-	import { ref, reactive } from "vue";
+	import { ref } from "vue";
 
 	const myName = ref("Tomas Yañez");
 

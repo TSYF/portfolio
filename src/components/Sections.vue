@@ -18,8 +18,6 @@
 
 <style lang="scss" scoped>
 	.main {
-		background-image: url("../src/assets/layered-waves-haikei.svg");
-		background-size: cover;
 		height: 500vh;
 		& > * {
 			height: 100vh;

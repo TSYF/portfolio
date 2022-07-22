@@ -10,7 +10,7 @@
 
 <style lang="scss">
 	/**
-	*!IDEA: Realizar animación de scroll con las waves; considerar ingresar contenido a la página mediante scrolling
+	*TODO: Realizar animación de scroll con las waves; considerar ingresar contenido a la página mediante scrolling
 	**/
 	@import "reset.css";
 	* {
@@ -18,6 +18,7 @@
 		scroll-behavior: smooth;
 	}
 	body {
-		height: 500vh;
+		background-image: url("../src/assets/layered-waves-haikei.svg");
+		background-size: cover;
 	}
 </style>
